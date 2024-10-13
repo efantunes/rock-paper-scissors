@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'cloud-strategy-desafio-03-webapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C0AB7008F23245F590B7F5F13FE080EB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5461C2E5F2C44F00A26B47C07F36FB7E }}
           package: '*.war'
